@@ -1,13 +1,24 @@
-/* Ensure the parent container of Parallax is a flex container and centers its children */
-.container {
-  display: flex;
-  justify-content: center; /* Center horizontally */
- 
-  height: 100%; /* Or the height you want for your container */
-  width: 100%; /* Or the width you want for your container */
+/* styles.css */
+:root {
+  --primary-color: #1F2833; /* Dark blue-gray */
+  --secondary-color: #66FCF1; /* Aqua */
+  --background-color: #C5C6C7; /* Light gray */
+  --text-color: #0B0C10; /* Dark gray */
+  --accent-color-1: #45A29E; /* Muted teal */
+  --accent-color-2: #F13C20; /* Bright red */
 }
 
-/* Additional styles to ensure that the Parallax itself is centered within its container */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Add any other global styles here */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
 .parallax-container {
-  margin: 0 auto; /* This will center the parallax if it has a specific width */
+  height: 100vh;
 }

@@ -1,0 +1,13 @@
+/* Ensure the parent container of Parallax is a flex container and centers its children */
+.container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+ 
+  height: 100%; /* Or the height you want for your container */
+  width: 100%; /* Or the width you want for your container */
+}
+
+/* Additional styles to ensure that the Parallax itself is centered within its container */
+.parallax-container {
+  margin: 0 auto; /* This will center the parallax if it has a specific width */
+}

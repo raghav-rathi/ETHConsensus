@@ -1,1 +1,1 @@
-# ETHConsensus
+# SuiConsensus
